@@ -4,7 +4,7 @@
 
 ## Multivariate Analysis using SAS 
 
-#### Background of Data Set
+#### Data
 
 The skull data set gives four measurements on male Egyptian skulls: maximum breadth,
 basilbregmatic height, basialvelar length, and nasal height, all measured in millimeters. The
@@ -25,3 +25,11 @@ for Equal-Covariance Normal Populations. Further analysis may include interpreta
 principal components and exploration into the high apparent error rate and estimated
 expected actual error rate.
 
+## Regression Analysis using R
+
+#### Data 
+
+The yacht data set gives six variables that could potentially be used to predict residuary resistant (ResidResis) of sailing yachts. Knowledge of a ship’s residuary resistance can be useful to determine the ship’s performance and to estimate the required propulsive power. The six variables are longitudinal position of the center of buoyancy (LongiPos), prismatic coefficient (PrisCoef), length-displacement ratio (LDRatio), beam-draughtratio (BDRatio), length-bean ratio (LBRatio), and Froude number (Froude), all adimensional. 
+
+#### Summary 
+I first re-code LongiPos as a categorical variable with five levels, calculate sample means for the remaining four, and note one missing observation. Next, I start with a first-order regression model that includes all predictors. A residuals vs fitted plot shows curvature and nonconstancy of error variance while a normal q-q plot shows that the errors are not normally distributed. From this initial model, I transform the data both in Y and X using Box-Cox and Box-Tidwell trans-formations. A best subsets algorithm determines that a model with PrisCoef, BDRatioT, FroudeT, and LongiPos2 predictors is the best. I further improve on the model and determine that the transformedFroude numbers is the best variable to predict residuary resistance. I also conclude that the association between residuary resistance and Froude number was not the same across levels of LongiPos 
