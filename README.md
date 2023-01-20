@@ -1,6 +1,6 @@
 # Statistical Analysis Reports <img align="right" width="75" height="75" src="https://cdn.pixabay.com/photo/2018/01/12/16/16/growth-3078543_960_720.png">
 
-
+Here are two summaries of reports I did as part of my comprehensive exam in my master's program. The full reports are also uploaded to this repository.
 
 ## Multivariate Analysis using SAS 
 
