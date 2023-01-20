@@ -1,4 +1,4 @@
-# Statistical Analysis Reports <img align="left" width="50" height="50" src="https://cdn.pixabay.com/photo/2018/01/12/16/16/growth-3078543_960_720.png">
+# Statistical Analysis Reports <img align="right" width="75" height="75" src="https://cdn.pixabay.com/photo/2018/01/12/16/16/growth-3078543_960_720.png">
 
 
 
